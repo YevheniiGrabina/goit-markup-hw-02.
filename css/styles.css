@@ -1,0 +1,149 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-texx-color: #757575;
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  text-decoration: none;
+  background: #ffffff;
+  color: #212121;
+  font-family: Roboto;
+}
+.list {
+  list-style: none;
+}
+.topline {
+  background-color: #ffffff;
+}
+.header-logo {
+        color: #212121;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+  font-family: Raleway;
+font-style: normal;
+font-weight: 700
+font-size: 26px;
+}
+
+.site-nav a {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+.style-link:hover {
+  color: #2196f3;
+}
+.contact-list a {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mail:hover,
+.mail:focus {
+  color: #2196f3;
+}
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  background: #2f303a;
+  color: #ffffff;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 700;
+}
+
+.feature-list {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 700;
+}
+.title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.feature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+.section-title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+.section-bg {
+  background-color: #f5f4fa;
+}
+.team-card {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+.team-card-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+.footer{
+    background-color: #2f303a;
+}
+.footer-logo {
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.web {
+    color: #2196f3;
+    font-family: Raleway;
+  font-style: normal;
+  font-weight: 700
+  font-size: 26px;
+  }
+  .footer-list a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
