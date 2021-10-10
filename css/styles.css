@@ -29,7 +29,7 @@ body {
   color: #2196f3;
   font-family: Raleway;
 font-style: normal;
-font-weight: 700
+font-weight: 700;
 font-size: 26px;
 }
 
@@ -41,7 +41,10 @@ font-size: 26px;
   font-size: 14px;
   text-decoration: none;
 }
-.style-link:hover {
+.style-link:hover,
+.style-link:focus
+
+ {
   color: #2196f3;
 }
 .contact-list a {
@@ -71,10 +74,13 @@ font-size: 26px;
 
 .header-btn:hover,
 .header-btn:focus {
-  background: #2196f3;
+  background:#188CE8;
   color: #ffffff;
   font-family: Roboto;
-  font-size: 700;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
 }
 
 .feature-list {
@@ -82,7 +88,7 @@ font-size: 26px;
   font-family: Roboto;
   font-size: 700;
 }
-.title {
+.title-feature {
   color: #212121;
   font-family: Roboto;
   font-style: normal;
@@ -95,6 +101,7 @@ font-size: 26px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
   color: #757575;
 }
 .section-title {
@@ -135,7 +142,7 @@ font-size: 26px;
     color: #2196f3;
     font-family: Raleway;
   font-style: normal;
-  font-weight: 700
+  font-weight: 700;
   font-size: 26px;
   }
   .footer-list a{
@@ -145,5 +152,43 @@ font-size: 26px;
     font-size: 14px;
     color: #ffffff;
     text-decoration: none;
+  }
+  .title{
+    visibility:hidden;
+  }
+  .btn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+  }
+  .btn-active:hover,
+  .btn-active:focus{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #2196F3;
+    color: #ffffff;
+  }
+  .project-list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    color: var(--primary-text-color);
+  }
+  .project-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-texx-color);
+    
   }
 
