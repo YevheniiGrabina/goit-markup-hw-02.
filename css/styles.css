@@ -246,3 +246,6 @@ line-height: 1.71;
 color: var(--primary-title-color);
 text-decoration: none;
 }
+.list{
+  list-style: none;
+}
