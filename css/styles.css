@@ -11,9 +11,6 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, Raleway, sans-serif;
 }
-.list {
-  list-style: none;
-}
 .topline {
   background-color: var(--primary-title-color);
 }
