@@ -40,7 +40,7 @@ body {
   font-size: 26px;
   text-decoration: none;
 }
-.site-nav a {
+.site-nav .link {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -48,11 +48,28 @@ body {
   font-size: 14px;
   text-decoration: none;
 }
-.style-link {
+.current{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
+  text-decoration: none;
 }
-.style-link:hover,
-.style-link:focus {
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+color: var(--accent-color);  
+}
+.link:hover,
+.link:focus
+ {
   color: var(--accent-color);
 }
 .contact-list {
@@ -99,6 +116,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  border: 0;
 }
 
 .header-btn:hover,
@@ -106,6 +124,7 @@ body {
   cursor: pointer;
   background-color: #188ce8;
   color: var(--primary-title-color);
+ 
 }
 .section {
   list-style: none;
@@ -185,6 +204,9 @@ body {
 .title {
   visibility: hidden;
 }
+.filtr-list{
+  list-style: none;
+}
 .btn {
   cursor: pointer;
   font-family: Roboto, sans-serif;
@@ -204,13 +226,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: var(--primary-text-color);
-  background: #f5f4fa;
+  color: var(--primary-title-color);
+  background: var(--accent-color);
   border-radius: 4px;
   list-style: none;
 }
-.btn-active:hover,
-.btn-active:focus {
+.btn:hover,
+.btn:focus {
   cursor: pointer;
   font-family: Roboto, sans-serif;
   font-style: normal;
